@@ -11,7 +11,7 @@ public class ContaCorrente {
 
     }
 
-    //Como o método não retorna nenhum valor. Nós usamos o 'void' quando queremos que o método execute alguma ação, mas não precisamos de um valor de retorno.
+    //Nós usamos o 'void' quando queremos que o método execute alguma ação, mas não precisamos de um valor de retorno.
     public void depositar(Double deposito) {
         saldo += deposito;
     }
